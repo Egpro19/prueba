@@ -1,0 +1,25 @@
+$primary: #ff5858;
+
+@import '../scss/main-top';
+@import '../scss/program';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: calc(1em + 1vw);
+    font-weight: bold;
+
+    span{
+        color: $primary;
+    }
+}

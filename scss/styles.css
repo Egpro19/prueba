@@ -1,0 +1,150 @@
+.main-top {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(hsla(0deg, 0%, 0%, 0.5), hsla(0deg, 0%, 0%, 0.5)), url(../img/img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+.main-top header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background-color: hsla(0deg, 0%, 93%, 0.2);
+  font-size: calc(0.5em + 0.5vw);
+}
+.main-top header h1 {
+  color: white;
+  font-weight: normal;
+}
+.main-top header h1 span {
+  color: #ff5858;
+}
+.main-top header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: 500ms all;
+}
+.main-top header nav a:hover {
+  color: #ff5858;
+}
+.main-top header nav .color {
+  color: #ff5858;
+  transition: 500ms all;
+}
+.main-top .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 90%;
+  margin: auto;
+}
+.main-top .info h2 {
+  color: white;
+  font-weight: normal;
+  font-size: calc(1em + 1vw);
+}
+.main-top .info p {
+  color: white;
+  font-size: calc(3em + 3vw);
+  text-align: center;
+  font-weight: bold;
+}
+.main-top .info p span {
+  color: #ff5858;
+}
+.main-top .info button {
+  padding: 10px;
+  background-color: #ff5858;
+  color: white;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+  transition: 500ms all;
+}
+.main-top .info button:hover {
+  background-color: white;
+  color: black;
+}
+
+.program {
+  padding: 100px 0;
+}
+.program p {
+  width: 40%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  font-size: calc(1em + 1vw);
+}
+.program .programsElements {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.program .programsElements .programElement {
+  display: flex;
+  width: auto;
+  margin: 20px;
+}
+.program .programsElements .programElement img {
+  width: 90px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.program .programsElements .programElement .info {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: 20px;
+}
+.program .programsElements .programElement .info h2 {
+  color: black;
+  font-size: calc(1em + 1vw);
+  letter-spacing: 5px;
+}
+.program .programsElements .programElement .info h3 {
+  color: black;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+.program .programsElements .programElement .info a {
+  text-decoration: none;
+  color: #ff5858;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: calc(1em + 1vw);
+  font-weight: bold;
+}
+.title span {
+  color: #ff5858;
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,90 @@
+.main-top{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(hsla(0, 0%, 0%, 0.500), hsla(0, 0%, 0%, 0.500)),url(../img/img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: uppercase;
+    overflow: hidden;
+
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 50px;
+        background-color: hsla(0, 0%, 93%, 0.200);
+        font-size: calc(0.5em + 0.5vw);
+
+        h1{
+            color: white;
+            font-weight: normal;
+
+            span{
+                color: $primary;
+            }
+        }
+
+        nav{
+            a{
+                color: white;
+                text-decoration: none;
+                margin: 0 15px;
+                transition: 500ms all;
+            }
+
+            a:hover{
+                color: $primary;
+            }
+
+            .color{
+                color: $primary;
+                transition: 500ms all;
+            }
+           
+        }
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 90%;
+        margin: auto;
+
+        h2{
+            color: white;
+            font-weight: normal;
+            font-size: calc(1em + 1vw);
+        }
+
+        p{
+            color: white;
+            font-size: calc(3em + 3vw);
+            text-align: center;
+            font-weight: bold;
+
+            span{
+                color: $primary;
+            }
+        }
+
+        button{
+            padding: 10px;
+            background-color: $primary;
+            color: white;
+            border: none;
+            margin-top: 25px;
+            cursor: pointer;
+            transition: 500ms all;
+        }
+
+        button:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+}
